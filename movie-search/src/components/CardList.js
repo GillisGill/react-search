@@ -1,5 +1,12 @@
 import React from "react";
+import Card from "./Card";
 
-export default function CardList() {
-  return <div></div>;
+function CardList() {
+  return (
+    <div className="result">
+      <Card />
+    </div>
+  );
 }
+
+export default CardList;

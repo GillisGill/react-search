@@ -1,13 +1,15 @@
 import React from "react";
 
-export default function Card() {
+function Card() {
   return (
-    <div className="resultsCard">
+    <div className="resultCard">
       <figure className="image is-48x48">
         <img src="" alt="" />
       </figure>
       <h4>Movie Title</h4>
-      <span>Year:2020</span>
+      <span>Year:2022</span>
     </div>
   );
 }
+
+export default Card;

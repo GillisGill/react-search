@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.resultCard {
+  background-color: aliceblue;
+}
