@@ -5,6 +5,7 @@ import SearchBar from "./components/SearchBar";
 import MovieSource from "./api/MovieSource";
 import { useState } from "react";
 
+// Performs a get request to the api, waits for the result and passes the result to the card list component
 function App() {
   const [state, setState] = useState({
     results: [],

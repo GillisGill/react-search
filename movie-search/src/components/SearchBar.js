@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
+// Handles search inputs
 function SearchBar(props) {
   const { onSearch } = props;
 

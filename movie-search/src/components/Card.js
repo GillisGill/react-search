@@ -1,5 +1,6 @@
 import React from "react";
 
+// Card component that recieves movie item
 function Card(props) {
   const { movie } = props;
 

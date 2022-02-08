@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
+// Receives results from get and maps to card components
 function CardList({ results }) {
   let data = [];
   if (results.data) {
