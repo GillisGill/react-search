@@ -4,7 +4,7 @@ import { useState } from "react";
 function SearchBar(props) {
   const { onSearch } = props;
 
-  const { searchText, setSearchText } = useState("");
+  const [searchText, setSearchText] = useState("");
 
   const handleInput = (e) => {
     const text = e.target.value;
