@@ -1,3 +1,3 @@
-# react-search
+# Movie Search
 
-Search for Movies using the OMDB api
+Search for Movies using the OMDB api.
