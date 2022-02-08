@@ -10,7 +10,9 @@ function CardList({ results }) {
 
   return (
     <div className="result">
-      <Card />
+      {data.map((item) => (
+        <Card key={item.imdbID} movie={item} />
+      ))}
     </div>
   );
 }

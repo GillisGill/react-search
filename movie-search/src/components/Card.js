@@ -1,13 +1,19 @@
 import React from "react";
 
-function Card() {
+function Card(props) {
+  const { movie } = props;
+
   return (
     <div className="resultCard">
       <figure className="image is-48x48">
-        <img src="" alt="" />
+        <img src={movie.Poster} alt={movie.Title} />
       </figure>
-      <h4>Movie Title</h4>
-      <span>Year:2022</span>
+      <h4>{movie.Title}</h4>
+      <span>{movie.Year}</span>
+
+      <button>
+        <label>Click</label>
+      </button>
     </div>
   );
 }
