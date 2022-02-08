@@ -13,7 +13,7 @@ function App() {
 
   const onSearch = async (text) => {
     const results = await MovieSource.get("/", {
-      params: { s: text, i: "tt3896198", apiKey: "a830c069" },
+      params: { s: text, apiKey: "a830c069" },
     });
     setState((prevState) => {
       return { ...prevState, results: results };
@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
       <div className="container searchApp">
-        <h2 className="title is-2 has-text-centered">React Search</h2>
+        <h2 className="AppTitle">Movie Search</h2>
         <SearchBar onSearch={onSearch} />
         <CardList results={state.results}></CardList>
       </div>

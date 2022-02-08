@@ -38,5 +38,12 @@
 }
 
 .resultCard {
-  background-color: aliceblue;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ClickButton {
+  width: 80px;
+  align-self: center;
 }

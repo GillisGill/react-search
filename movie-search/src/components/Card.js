@@ -5,13 +5,13 @@ function Card(props) {
 
   return (
     <div className="resultCard">
-      <figure className="image is-48x48">
+      <figure className="PosterImg">
         <img src={movie.Poster} alt={movie.Title} />
       </figure>
       <h4>{movie.Title}</h4>
       <span>{movie.Year}</span>
 
-      <button>
+      <button className="ClickButton">
         <label>Click</label>
       </button>
     </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-//import bulma from "bulma";
+import bulma from "bulma";
 
 function SearchBar(props) {
   const { onSearch } = props;
