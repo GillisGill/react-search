@@ -2,7 +2,7 @@ import React from "react";
 import { useState } from "react";
 
 // Handles search inputs
-function SearchBar(props) {
+const SearchBar = (props) => {
   const { onSearch } = props;
 
   const [searchText, setSearchText] = useState("");
@@ -32,6 +32,6 @@ function SearchBar(props) {
       </div>
     </div>
   );
-}
+};
 
 export default SearchBar;

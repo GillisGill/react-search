@@ -2,7 +2,7 @@ import React from "react";
 import Card from "./Card";
 
 // Receives results from get and maps to card components
-function CardList({ results }) {
+const CardList = ({ results }) => {
   let data = [];
   if (results.data) {
     data = results.data.Search || [];
@@ -16,6 +16,6 @@ function CardList({ results }) {
       ))}
     </div>
   );
-}
+};
 
 export default CardList;

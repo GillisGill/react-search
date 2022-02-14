@@ -1,8 +1,10 @@
 import React from "react";
+import StarRating from "./StarRating";
 
 // Card component that recieves movie item
-function Card(props) {
+const Card = (props) => {
   const { movie } = props;
+  // console.log(props);
 
   return (
     <div className="resultCard">
@@ -11,12 +13,13 @@ function Card(props) {
       </figure>
       <h4>{movie.Title}</h4>
       <span>{movie.Year}</span>
+      <StarRating />
 
       <button className="ClickButton">
         <label>Click</label>
       </button>
     </div>
   );
-}
+};
 
 export default Card;
